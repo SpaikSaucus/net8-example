@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Calendar\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreLibrary">
+      <HintPath>..\Assemblies\CoreLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

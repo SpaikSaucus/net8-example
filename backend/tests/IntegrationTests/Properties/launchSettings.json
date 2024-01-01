@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "IntegrationTests": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "JWT.SymmetricKey": "6tdchcn3ihuc98h874xhnmm8inixu27rx5431xwzieicjaq098"
+      }
+    }
+  }
+}
